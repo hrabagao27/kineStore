@@ -1,0 +1,49 @@
+/* Contenedor general del nav */
+nav {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre los grupos de elementos */
+    align-items: center; /* Alineación vertical */
+    background: rgba(0, 14, 5, 0.45); /* Fondo con transparencia */
+    border-bottom: 2px solid #f3f3f3;
+    padding: 10px 20px; /* Ajuste para el relleno */
+    position: relative; /* Necesario para centrar el input */
+    z-index: 999;
+    height: 70px; /* Asegura que todos los elementos estén dentro del nav */
+}
+
+/* Contenedor del input para centrarlo */
+nav .center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Centrado tanto horizontal como vertical */
+}
+
+/* Estilo para el logo de Nike */
+.nike-logo {
+    width: 55px;
+    height: 55px;
+    color: azure;
+    margin-left: 2rem;
+}
+
+/* Estilo para los iconos a la derecha */
+.nav-icons {
+    margin-right: 2rem;
+    color: azure;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+/* Estilo para el input centrado */
+input {
+    width: 16rem;
+    padding: 12px 20px;
+    border: none;
+    background: #f7f6f6;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Para un efecto sutil */
+}

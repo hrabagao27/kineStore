@@ -1,0 +1,25 @@
+/* Restablecer los márgenes y el relleno para todos los elementos */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en las dimensiones del elemento */
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    background: linear-gradient(180deg, rgba(16, 55, 186, 1) 0%, rgba(2, 14, 112, 1) 100%);
+    font-family: "Gabarito", sans-serif; /* Añadir una fuente base (opcional) */
+    min-height: 100vh; /* Asegura que cubra toda la ventana */
+}
+
+.btns {
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    color: #f1f1f1;
+    cursor: pointer;
+  }
